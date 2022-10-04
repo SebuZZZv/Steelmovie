@@ -1,0 +1,1415 @@
+body
+{
+    background-color: white;
+    
+
+
+    
+ margin: 0;
+ 
+}
+
+.main-navigation
+{
+    width: 100%;
+    height: 100px;
+    position: relative ;
+    position: sticky ;
+    top: 0 ;
+    
+    z-index: 999  ;
+    background-color: black;
+}
+.testowo
+{
+    position: relative;
+}
+.main-navigation.small
+{
+    width: 100%;
+    height: 50px;
+    
+    
+    z-index: 999 ; 
+    background-color: black;
+}
+.main-navigation .logo.small img
+{
+   
+    width: 100px;
+    height: 30px;
+    
+    
+    
+    
+}
+.main-navigation .logo.small 
+{
+   
+    margin-top: -17px;
+    margin-left: 550px;
+    
+    
+}
+.main-navigation .logo
+{
+    
+   
+    float: left;
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top:0;
+   
+}
+.main-navigation .logo img 
+{
+    margin-top: 20px;
+}
+#nav
+{
+    width: 40%;
+    height: 50px;
+    margin-top: 40px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:120px;
+    
+}
+#nav a
+{
+    color: white;
+    font-size: 26px;
+    margin-left: 30px;
+    
+    cursor: pointer;
+    text-decoration: none;
+
+    
+    
+    
+    
+}
+#nav.small
+{
+    
+    margin-top: 10px;
+    
+    margin-left: 430px;
+    
+    
+}
+#nav.small a {
+    padding: 0px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+.foto-bc
+{
+    
+    height: 850px;
+    
+   background-color: black;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.fade {
+   animation: fade 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    
+  }
+
+  @keyframes fade {
+    0% {
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateZ(0px);
+      opacity: 1;
+    }
+  }
+  
+
+.box1
+{
+    
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 5px 20px 0px black;
+}
+
+.film1
+{
+ 
+ width: 12%;
+ height: 100%;
+ display: inline-block;
+ cursor: pointer;
+ margin-top: 25px;
+ 
+ 
+}
+.film2
+{
+    
+    width: 12%;
+ height: 100%;
+ display: inline-block;
+ margin-left: 15px;
+ cursor: pointer;
+ 
+}
+.film3
+{
+    
+    width: 12%;
+ height: 100%; 
+ display: inline-block; 
+ margin-left: 15px;
+ cursor: pointer;
+ 
+}
+.film4
+{
+    
+    width: 12%;
+ height: 100%;
+ display: inline-block;
+ margin-left: 15px;
+ cursor: pointer;
+}
+.film5
+{
+    
+    width: 12%;
+ height: 100%;
+ display: inline-block;
+ margin-left: 15px;
+ cursor: pointer;
+}
+.text-cos 
+{
+    color: black;
+    text-align: center;
+   margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box2
+{
+   background-color: black;
+    height: 420px;
+    z-index: 300;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 5px 20px 0px black;
+}
+.box3
+{
+    background-color: black;
+    height: 420px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 5px 20px 0px black;
+}
+.shadow
+{
+    box-shadow: 1px 2px 10px yellow;
+}
+.about
+{
+    
+    width: 100%;
+    height: 20%;
+    position: relative;
+    
+    
+}
+.about h5
+{
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+}
+.about h6
+{
+    margin: 0;
+    color: gray;
+}
+.about .stars
+{
+    
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    
+    
+}
+.about .stars img 
+{
+    float: left;
+}
+.about .stars p 
+{
+    margin-top:7px;
+    float: left;
+    margin-left: 5px;
+    color: yellow;
+
+}
+.seasons
+{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
+    
+}
+.seasons p 
+{
+    
+    margin-top: 7px;
+    color: rgba(6, 212, 226, 0.658);
+}
+.blackphone-about {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+    
+    
+    
+    }
+    
+.image-foto
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/blackphone-bc.jpg);
+    
+    
+    color: white;
+    
+   
+    
+    
+    
+}
+
+ 
+ 
+  
+  .movie-name
+  {
+    
+    
+    
+    font-size: 26px;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+    
+  }
+ .loader-box 
+ {
+    
+    width: 750px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .cos 
+ {
+    margin-left: 100px;
+    
+ }
+ .cos a
+ {
+    color: rgba(6, 212, 226, 0.658);
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: -20px;
+    
+    margin-right: 20px;
+    
+ }
+ .Description
+ {
+    
+    
+    margin-left: 100px;
+    font-size: 14px;
+ }
+ .exit
+ {
+    
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    cursor: pointer;
+ }
+.line1 
+{
+  width: 10px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: rgba(6, 212, 226, 0.658);
+  transform: rotate(-45deg) translateY(10px) translateX(-2px);
+  margin-top: 10px;
+ 
+}
+.line2 
+{
+  visibility: hidden;
+}
+.line3 
+{
+  transform: rotate(45deg) translateY(-10px) translateX(-2px);
+  width: 10px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: rgba(6, 212, 226, 0.658); 
+  margin-top: 10px;
+  
+}
+.topgun-about {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+    
+    
+}
+.button
+{
+  position: relative;
+  left: 100px;
+  top: 50px;
+  
+}  
+#btn
+{
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: all, .5s ease-in-out;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#btn:hover
+{
+  
+  transform: scale(1.15);
+  background-color: white;
+} 
+.image-foto2
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/topgun-wsa.png);
+    
+    color: white;
+    
+   
+    
+    
+    
+}
+.predator-about {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+   display: none;
+    
+    
+    
+    
+    }
+.image-foto3
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/prey.png);
+    
+    color: white;
+    
+}
+.blackwidow-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.image-foto4
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/blackwidow-bc.jpg);
+    color: white;
+}
+.got-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.popularseries-image-foto1
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/got-bc.jpg);
+    color: white;
+}
+.shehulk-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+    
+}
+.popularseries-image-foto2
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/she-hulk-bc.jpg);
+    color: white;
+} 
+.see-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.popularseries-image-foto3
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/see-bc.jpg);
+    color: white;
+}
+.twd-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.popularseries-image-foto4
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/twd-bc.jpg);
+    color: white;
+}
+.sandman-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.popularseries-image-foto5
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/sandman-bc.jpg);
+    color: white;
+}
+.commingsoon-about 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.commingsoon-image-foto
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/ring-bc.jpg);
+    color: white;
+}
+.commingsoon-about2
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.commingsoon-image-foto2
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/gooddoctor-bc.jpg);
+    color: white;
+}        
+.commingsoon-about3
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.commingsoon-image-foto3
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/broadpeak-bc.jpg);
+    color: white;
+}        
+.commingsoon-about4 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.commingsoon-image-foto4
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/dontworry-bc.jpg);
+    color: white;
+}        
+.commingsoon-about5 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: none;
+    
+}
+.commingsoon-image-foto5
+{
+    width: 100%;
+    height: 955px;
+    background-image: url(img/chicagofire-bc.jpg);
+    color: white;
+}   
+
+.rank
+{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.rank-box
+{
+    width: 70%;
+    height: 350px;
+    background-color: black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+    overflow-x: auto;
+}
+.in-rank
+{
+ 
+ 
+ cursor: pointer;
+ padding: 10px;
+ 
+
+}
+.rank-info
+{
+    width: 100%;
+    height: 50px ;
+    
+}
+.views
+{
+    
+    text-align: center;
+}
+.views span
+{
+    font-size: 18px;
+    color: yellow;
+}
+.name
+{
+    background-color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#View-full-ranking-button
+{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    
+    transition-property: background;
+transition-duration: 1.5s;
+}
+
+#View-full-ranking-button a
+{ 
+ font-size: 25px;
+ margin-top: 20px;
+ 
+}
+#View-full-ranking-button:hover
+{
+    
+    color: white;
+    background: black;
+    animation: view-button 1s ease-in-out;
+    
+
+}
+@keyframes view-button {
+    0%
+    {
+   transform: scale(1);
+
+    }
+    50%
+    {
+transform: scale(1.1);
+
+    }
+    
+}
+#nav-films
+{
+    width: 40%;
+    
+    margin-top: 40px;
+    
+    float: left;
+    text-align: center;
+    position: absolute;
+    top:3px;
+    left:120px;
+}    
+#nav-films a
+{
+    color: white;
+    font-size: 26px;
+    margin-left: 30px;
+    margin-top: 25px;
+    cursor: pointer;   
+}
+
+.blue-line2
+{
+ width: 100%;
+ height: 100px;
+ background-color:black;
+ float: left;
+ 
+}
+
+
+.blue-line4
+{
+width: 100%;
+ height: 100px;
+ background-color: black;
+ float: left;
+}
+.blue-line5
+{
+ width: 13%;
+ height: 900px;
+ background-color: black;
+ 
+ float: left;
+}
+.Container1
+{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-color: black;
+    
+}
+.name-films
+{
+ text-align: center;
+ color: white;
+ font-size: 22px;
+ 
+ text-transform: uppercase;
+}
+#movie-thriller
+{
+    width: 75%;
+    height: 600px;
+    
+    margin: 0 auto;
+    background-color: black;
+    
+ z-index: 555;
+
+    
+}
+#movie-thriller
+{
+    text-align: center;
+}
+#movie-thriller video
+{
+    
+    height: 600px;
+}
+#movie-thriller .movie-foto
+{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+#movie-bottom-thriller
+{
+    width: 62%;
+   position: relative;
+    -ms-overflow-style: none; 
+    scrollbar-width:none;
+    overflow-y: scroll;  
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+ justify-content:space-between;
+ align-items:center;
+ position: relative;
+ z-index: 1000;
+ 
+}
+
+.movie-bottom-film
+{
+    
+    height: 80%;
+    padding: 10px;
+    position: relative;
+    
+    
+}
+
+.movie-bottom-film h3
+{
+    color: white;
+ text-align: center;
+ 
+ 
+ margin-top: 10px;
+}
+.movie-bottom-film img
+{
+    transition-duration: 0.5s;
+    
+    border-left:3px solid yellow ;
+    border-right:3px solid yellow ;
+    border-top:3px solid yellow ;
+    display: block;
+}
+.movie-bottom-film img:hover
+{
+    transform: scale(1.1);
+    
+
+    
+    z-index: 0;
+}
+
+
+#movie-bottom-thriller .miss-movie .rank-box::-webkit-scrollbar {
+    display: none; 
+}
+.Container2
+{
+    width: 100%;
+    height: 900px;
+    float: left; 
+    
+}
+
+
+.text-youcan
+{
+    margin-top: 50px;
+}
+
+.text-youcan h1
+{
+ color: black;
+ text-align: center;
+ text-transform: uppercase;
+ 
+}
+
+
+
+
+
+.miss-movie
+{
+ width: 51.5%;
+ 
+ position: relative;
+ 
+ margin: 0 auto;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+    overflow-x: auto;
+    
+
+ 
+}
+
+
+.miss-movie .film-inside-miss
+{
+    
+    height: 90%;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+.film-inside-miss img
+{
+    transition-duration: 0.5s;
+    
+}
+.film-inside-miss img:hover
+{
+    transform: scale(1.1);
+    
+
+    
+    z-index: 0;
+}
+.miss-movie .film-inside-miss h3
+{
+    
+    text-align: center;
+   margin-top: 10px;
+}
+.text-popular
+{
+text-align: center;
+ 
+ 
+ margin-top: 50px;
+ text-transform: uppercase;
+}
+.popular-movie
+{
+    width: 51.5%;
+ 
+    position: relative;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    -ms-overflow-style: none; 
+       scrollbar-width: none; 
+       overflow-y: scroll; 
+       overflow-x: auto;
+       
+    
+}
+
+.popular-movie .film-inside-popular
+{
+    
+    padding: 10px;
+    position: relative;
+    
+}
+.popular-movie .film-inside-popular h3{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: aqua;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color:  rgba(6, 211, 226, 0.411);
+    position: relative;
+    top:-20%;
+    left: 82%;
+  }
+  .prev
+  {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color:  rgba(6, 211, 226, 0.411);
+    position: relative;
+    top:15%;
+    left: 15%;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .mySlides 
+  {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+  }
+  .mySlides2
+  {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+  }
+  .prev2, .next2 {
+    cursor: pointer;
+    
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: aqua;
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color:  rgba(6, 211, 226, 0.411);
+    position: relative;
+    top:-20%;
+    left: 82%;
+  }
+  .prev2
+  {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color:  rgba(6, 211, 226, 0.411);
+    position: relative;
+    top:15%;
+    left: 15%;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .Container3
+  {
+      width: 100%;
+      
+      float: left;
+      background-color: lightgray;
+      
+  }
+  .text-Expected
+  {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .text-Expected h1
+  {
+    margin: 0px;
+    color: white;
+    background-color: black;
+    
+  }
+  .Expected
+  {
+    
+    background-color: black;
+    
+  }
+  
+  .Expected-films
+  {
+    width: 75%;
+ 
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    -ms-overflow-style: none; 
+       scrollbar-width: none; 
+       overflow-y: scroll; 
+       overflow-x: auto;
+  }
+  .film-inside-Expected
+  {
+    
+    padding: 10px;
+    position: relative;
+    
+  }
+  
+  
+  .Expected-films .film-inside-Expected img 
+  {
+    transition-duration: 0.5s;
+  }
+  .Expected-films .film-inside-Expected img:hover 
+  {
+    transform: scale(1.1);
+    
+
+    
+    z-index: 0;
+  }
+  .Expected-films .film-inside-Expected h3
+  {
+    text-align: center;
+    color: white;
+  }
+  .views-info
+  {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    
+  }
+  
+  .views-info .views
+  {
+    width: 100%;
+    height: 25px;
+    color: yellow;
+    text-align: center;
+  }
+  .views-info .name
+  {
+    color: white;
+    text-align: center;
+  }
+  #test-nazwa
+  {
+    
+    border-bottom: 2px solid black;
+  }
+  .popular-characters
+  {
+    width: 75%;
+ 
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    -ms-overflow-style: none; 
+       scrollbar-width: none; 
+       overflow-y: scroll; 
+       overflow-x: auto;
+       margin-top: 50px;
+  }
+  .popular-characters .film-inside-popular-characters
+{
+    
+    height: 90%;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+.popular-characters img
+{
+    transition-duration: 0.5s;
+    
+}
+.popular-characters img:hover
+{
+    transform: scale(1.1);
+    
+
+    
+    z-index: 0;
+}
+.popular-characters .film-inside-popular-characters h3
+{
+    
+    text-align: center;
+   margin-top: 10px;
+}
+.text-characters
+{
+   text-transform: uppercase; 
+   text-align: center;
+   margin-top: 20px;
+   
+}
+.text-characters h1
+{
+    margin: 0;
+    color: black;
+    background-color: lightgray;
+}
+#bottom-section
+{
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-box
+{
+    width: 1200px;
+    height: 80%;
+    
+    border: 3px solid yellow;
+    
+    
+}
+.news-chapter1
+{
+   width: 250px;
+    height: 760px;
+    
+  
+    float: left;
+    
+}
+.news-name 
+{
+    width: 250px;
+    height: 144px;
+    background-color: black;
+    position: relative;
+    
+    
+}
+.news-name span
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 29px;
+    margin-top: 10px;
+    position: absolute;
+    top:30%;
+    left: 35%;
+}
+.news-info
+{
+    width: 250px;
+    height: 616px;
+    
+    background-image: url(img/news-d23expo.jpg);
+
+}
+.news-chapter2
+{
+    width: 300px;
+    height: 760px;
+    
+  
+    float: left;
+}
+.inside-chapter1
+{
+    width: 300px;
+    height: 253.3px;
+    
+    background-image: url(img/news-miagoth.jpg);
+}
+.inside-chapter2
+{
+    width: 300px;
+    height: 253.3px;
+    
+    background-image: url(img/news-constantine.jpg);
+}
+.inside-chapter3
+{
+    width: 300px;
+    height: 253.3px;
+    
+    background-image: url(img/news-jurasic.jpg);
+}
+.news-chapter3
+{
+    width: 450px;
+    height: 760px;
+    
+  
+    float: left;
+}
+.foto-inisde-chapter3
+{
+    width: 450px;
+    height: 506.3px;
+    
+    background-image: url(img/news1.jpg);
+}
+.some-text-in-chapter3
+{
+    width: 450px;
+    height: 253px;
+    
+    background-image: url(img/news-ringsof.jpg);
+}
+.news-chapter4
+{
+    width: 200px;
+    height: 760px;
+    
+  
+    float: left;
+}
+.some-news1
+{
+    width: 200px;
+    height: 253.3px;
+    
+    background-image: url(img/news-wody\(1\).jpg);
+}
+.some-news2
+{
+    width: 200px;
+    height: 253.3px;
+    
+    background-image: url(img/news-oscars.jpg);
+}
+.some-news3
+{
+    width: 200px;
+    height: 253.3px;
+    
+    background-image: url(img/news-fotobuzz.jpg);
+}
+#last-section
+{
+ width: 100%;
+ height: 150px;
+ background-color: black;
+}

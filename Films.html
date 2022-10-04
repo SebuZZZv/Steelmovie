@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Steelmovie - best films</title>
+   <meta name="description" content="ALl about films and series " />
+   <meta name="keywords" content="Films, Series, Premiere, thriler, Best, " />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="../Film_Page/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+   <script src="/path/to/jquery.cookie.js"></script>
+   <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+   <div class="main-navigation">
+      <div class="logo">
+        <img  src="img/Logo-steelmovie.png">     
+        
+     </div>
+      <nav id="nav">
+       <a href="../Film_Page/index.html">Home</a>
+       <a href="../Film_Page/Films.html" style="color:lightgray;">Films</a>
+       <a>Series</a>
+       <a>Someting</a>
+     </nav>
+     </div>
+   </div> 
+   <div class="blue-line1"></div>
+   <div class="Container1">
+    <div class="name-films">Thrillers</div>
+    <div id="movie-thriller">
+      <video  id="main-video"  controls>
+         <source src="thrillers/I Came By Official Trailer Netflix.mp4" type="video/mp4">
+       </video>
+     
+        
+    </div>
+      <div id="movie-bottom-thriller">
+         
+         <div class="movie-bottom-film"  data-src="thrillers/I Came By Official Trailer Netflix.mp4" >
+           <img width="144" src="img/przypadkowy.jpg">
+             <h3>I Came By</h3>
+         </div>
+         <div class="movie-bottom-film"  data-src="thrillers/THE GRAY MAN Official Trailer Netflix.mp4">
+            <img width="144" height="212" src="img/greyman.jpg">
+                <h3>The Gray man</h3>  
+         </div>
+         <div class="movie-bottom-film"  data-src="thrillers/Day Shift Thriller.mp4">
+            <img width="144" height="212" src="img/day-shift.jpg">
+                <h3>Day Shift</h3>  
+         </div>
+         <div class="movie-bottom-film" data-src="thrillers/Disney & Pixar's Lightyear Comedy Trailer.mp4">
+            <img width="144" height="212" src="img/buzz-astral.jpg">
+                <h3>Buzz Astral</h3>  
+         </div>
+         <div class="movie-bottom-film" data-src="thrillers/moonfall_thriler.mp4">
+            <img width="144" height="212" src="img/moonfall.jpg">
+                <h3>Moonfall</h3>  
+         </div>
+         <div class="movie-bottom-film">
+            <img width="144" height="212" src="img/BroadPeak.png">
+                <h3>Test</h3>  
+         </div>
+      </div>
+      
+      
+   </div>
+   
+   <script>
+   $(document).ready(function() {
+      $('.movie-bottom-film').click(function() {
+        $('#main-video').attr('src', $(this).attr('data-src'));
+      });
+    });
+   </script> 
+   
+   <div class="blue-line2"></div>
+   <div class="Container2">
+      <div class="text-youcan"><h1>You can't miss</h1></div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <div class="miss-movie">
+         <div class="mySlides fade">
+         <div  class="film-inside-miss">
+            <img width="144" src="img/guliver.jpg">
+            <h3>Guliver</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/notherdame.jpg">
+            <h3>NotreDame brûle</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/minion.jpg">
+            <h3>Minions</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/nope.jpg">
+            <h3>Nope</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/after4.jpg">
+            <h3>After 4</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/vortex.jpg">
+            <h3>Vortex</h3>
+         </div>
+      </div>
+         <div  class="film-inside-miss">
+            <img width="144" src="img/bodies bodies bodies.jpg">
+            <h3>Bodies Bodies</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/lenasnowball.jpg">
+            <h3>Lena & Snowball</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/samuraj.jpg">
+            <h3>Paws of Fury</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/the twin.jpg">
+            <h3>The Twin</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/elvis.jpg">
+            <h3>Elvis</h3>
+         </div>
+         <div class="film-inside-miss">
+            <img width="144" src="img/bestia.jpg">
+            <h3>Bestia</h3>
+         </div>
+      
+       </div>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+       <div class="text-popular">
+          <h1>Popular</h1>
+      </div>
+      <a class="prev2" onclick="plusSlides(-1)">❮</a>
+      <div class="popular-movie">
+      <div class="mySlides fade">
+       <div class="film-inside-popular">
+          <img width="144" src="img/top gun.jpg">
+          <h3>Top Gun:Maveric</h3>
+       </div>
+       <div class="film-inside-popular">
+          <img width="144" src="img/thorl.jpg">
+          <h3>Thor</h3>
+       </div>
+       <div class="film-inside-popular">
+          <img width="144" src="img/elvis.jpg">
+          <h3>Elvis</h3>
+       </div>
+       <div class="film-inside-popular">
+          <img width="144" src="img/gameby.jpg">
+          <h3>I Game By</h3>
+       </div>
+       <div class="film-inside-popular">
+          <img width="144" src="img/predator.jpg">
+          <h3>Predator: Prey</h3>
+       </div>
+       <div class="film-inside-popular">
+          <img width="144" src="img/diuna.jpg">
+          <h3>Diuna</h3>
+       </div>
+   </div>
+     <div class="film-inside-popular">
+      <img width="144" src="img/moonfall.jpg">
+      <h3>MoonFall</h3>
+   </div>
+   <div class="film-inside-popular">
+      <img width="144" src="img/greyman.jpg">
+      <h3>Grey Man</h3>
+   </div>
+   <div class="film-inside-popular">
+      <img width="144" src="img/blackwidow.jpg">
+      <h3>Black Widow</h3>
+   </div>
+   <div class="film-inside-popular">
+      <img width="144" src="img/viking.jpg">
+      <h3>Viking</h3>
+   </div>
+   <div class="film-inside-popular">
+      <img width="144" src="img/cruella.jpg">
+      <h3>Cruella</h3>
+   </div>
+   <div class="film-inside-popular">
+      <img width="144" src="img/blackfone.jpg">
+      <h3>Black Phone</h3>
+   </div>
+   </div>
+   <a class="next2" onclick="plusSlides(1)">❯</a>
+</div>
+   
+   <div class="blue-line3"></div>
+   <div class="blue-line4"></div>
+   <script>
+$(".next").click(function () { 
+  var leftPos = $('.miss-movie').scrollLeft();
+  $(".miss-movie").animate({scrollLeft: leftPos + 1000}, 600);
+});
+
+$(".prev").click(function () { 
+  var leftPos = $('.miss-movie').scrollLeft();
+  $(".miss-movie").animate({scrollLeft: leftPos - 1000}, 600);
+});
+
+$(".next2").click(function () { 
+  var leftPos = $('.popular-movie').scrollLeft();
+  $(".popular-movie").animate({scrollLeft: leftPos + 1000}, 600);
+});
+
+$(".prev2").click(function () { 
+  var leftPos = $('.popular-movie').scrollLeft();
+  $(".popular-movie").animate({scrollLeft: leftPos - 1000}, 600);
+});
+
+
+</script>
+
+<div class="Container3">
+   <div class="text-Expected"><h1>Expected</h1></div>
+ <div class="Expected">
+   <div class="Expected-films">
+      <div class="film-inside-Expected">
+         <img width="144" src="img/blonde.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>Blonde</p1>
+            </div>
+         </div>
+      </div>
+      <div class="film-inside-Expected">
+         <img width="144" src="img/IO.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>IO</p1>
+            </div>
+         </div>
+      </div>
+      <div class="film-inside-Expected">
+         <img width="144" src="img/amsterdam.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>Amsterdam</p1>
+            </div>
+         </div>
+      </div>
+      <div class="film-inside-Expected">
+         <img width="144" src="img/Smile.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>Smile</p1>
+            </div>
+         </div>
+      </div>
+      <div class="film-inside-Expected">
+         <img width="144" src="img/Tickettopradadise.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>Ticket to Paradise</p1>
+            </div>
+         </div>
+      </div>
+      <div class="film-inside-Expected">
+         <img width="144" src="img/alcarras.jpg">
+         <div class="views-info">
+            <div class="views">
+               <span>11 650</span>
+            </div>
+            <div class="name">
+               <p1>Alcarras</p1>
+            </div>
+         </div>
+      </div>
+   </div>
+ </div> 
+ <div class="text-characters"><h1>Popular characters</h1></div>
+ <div id="test-nazwa">
+   <div class="popular-characters">
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/darthvader.jpg">
+         <h3>Test</h3>
+      </div>
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/pinhead.jpg">
+         <h3>Test</h3>
+      </div>
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/bilbobaggins.jpg">
+         <h3>Test</h3>
+      </div>
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/joker.jpg">
+         <h3>Test</h3>
+      </div>
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/jasonvoorhees.jpg">
+         <h3>Test</h3>
+      </div>
+      <div class="film-inside-popular-characters">
+         <img width="144" src="img/jacksparrow.jpg">
+         <h3>Test</h3>
+      </div>
+   </div>
+</div>
+
+</div>    
+</div>
+<div id="bottom-section">
+   <div class="news-box">
+      <div class="news-chapter1">
+      <div class="news-name">
+         <span>News</span>
+      </div>
+      <div class="news-info">
+
+      </div>
+      </div>
+      <div class="news-chapter2">
+        <div class="inside-chapter1">
+
+        </div>
+        <div class="inside-chapter2">
+         
+        </div>
+        <div class="inside-chapter3">
+         
+        </div>
+
+      </div>
+      <div class="news-chapter3">
+         <div class="foto-inisde-chapter3">
+
+         </div>
+         <div class="some-text-in-chapter3">
+
+         </div>
+      </div>
+      <div class="news-chapter4">
+         <div class="some-news1"></div>
+         <div class="some-news2"></div>
+         <div class="some-news3"></div>
+      </div>
+   </div>
+</div>
+<div id="last-section">
+
+</div>
+   </body>
