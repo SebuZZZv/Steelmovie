@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Steelmovie - best films</title>
+   <meta name="description" content="ALl about films and series " />
+   <meta name="keywords" content="Films, Series, Premiere, thriler, Best, " />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="../Film_Page/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+   <script src="/path/to/jquery.cookie.js"></script>
+   <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+   <div class="main-navigation">
+      <div class="logo">
+        <img  src="img/Logo-steelmovie.png">     
+     </div>
+     <div class="mobile-nav">
+       <div class="mobile-menu">
+         <div class="mobile-nav-links-container">
+           <a href="index.html">Home</a>
+           <a href="Films.html">Films</a>
+           <a href="Series.html">Series</a>
+           
+           
+         </div>
+         
+       </div>
+         <div class="hamburger-button">
+           <div class="hamburger-line1"></div>
+           <div class="hamburger-line2"></div>
+           <div class="hamburger-line3"></div>
+         </div>
+     </div>
+     <nav class="nav">
+       <a href="index.html" >Home</a>
+       <a href="Films.html">Films</a>
+       <a href="Series.html" style="color: lightgray;">Series</a>
+       
+     </nav>
+     </div>
+     <div class="Container1">
+        <div class="name-films">Series thrillers</div>
+        <div id="movie-thriller">
+          <video  id="main-video"  controls>
+             <source src="thrillers/Dahmer.mp4" type="video/mp4">
+           </video>
+         
+            
+        </div>
+          <div id="movie-bottom-thriller">
+             
+             <div class="movie-bottom-film"  data-src="thrillers/Dahmer.mp4" >
+               <img  src="img/dahmer.jpg">
+                 <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 150px; display: block;">Monster: The Jeffrey Dahmer Story</h3>
+             </div>
+             <div class="movie-bottom-film"  data-src="thrillers/Ring of power.mp4">
+                <img   src="img/ringsofpower.jpg">
+                    <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 150px; display: block;">The Lord of the Rings: The Rings of Power</h3>  
+             </div>
+             <div class="movie-bottom-film"  data-src="thrillers/House of dragon.mp4">
+                <img   src="img/house of dragon.jpg">
+                    <h3>House of Dragon</h3>  
+             </div>
+             <div class="movie-bottom-film" data-src="thrillers/She-hulk.mp4">
+                <img  src="img/shehulk.png">
+                    <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 150px; display: block;">She-Hulk: Attorney at Law</h3>  
+             </div>
+             <div class="movie-bottom-film" data-src="thrillers/Cyberpunk.mp4">
+                <img  src="img/cyberpunk.jpg">
+                    <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 150px; display: block;">Cyberpunk Edgerunners</h3>  
+             </div>
+             <div class="movie-bottom-film" data-src="thrillers/the boys.mp4">
+                <img src="img/theboys.jpg">
+                    <h3>The Boys</h3>  
+             </div>
+          </div>
+          
+          
+       </div>
+       
+       <script>
+       $(document).ready(function() {
+          $('.movie-bottom-film').click(function() {
+            $('#main-video').attr('src', $(this).attr('data-src'));
+          });
+        });
+       </script> 
+       
+       <div class="blue-line2"></div>
+       <div class="Container2">
+          <div class="text-youcan"><h1>worth seeing</h1></div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <div class="miss-movie">
+             <div class="mySlides fade">
+             <div  class="film-inside-miss">
+                <img  src="img/dahmer.jpg">
+              <h3  style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">Monster: The Jeffrey Dahmer Story</h3>
+                
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/ringsofpower.jpg">
+              <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">The Lord of the Rings: The Rings of Power</h3>
+                
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/cyberpunk.jpg">
+              <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">Cyberpunk: Edgerunners</h3>
+                
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/house of dragon.jpg">
+              <h3>House of Dragon</h3>
+                
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/thebear.jpg">
+              <h3>The Bear</h3>
+                
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/theempress.jpg">
+              <h3>Die Kaiserin</h3>
+                
+             </div>
+          </div>
+             <div  class="film-inside-miss">
+                <img  src="img/shehulk.png">
+                <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">She-Hulk: Attorney at Law</h3>
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/sandman.png">
+                <h3>Sandman</h3>
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/calltosamula.jpg">
+                   <h3>Better Call Saul</h3>
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/Andor.jpg">
+                <h3>Andor</h3>
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/strangerthings.jpg">
+          <h3>Stranger things</h3>
+             </div>
+             <div class="film-inside-miss">
+                <img  src="img/breakingbad.jpg">
+          <h3>Breaking Bad</h3>
+             </div>
+             
+           </div>
+           <a class="next" onclick="plusSlides(1)">❯</a>
+           <div class="text-popular">
+            
+              <h1>Popular</h1>
+          </div>
+          <a class="prev2" onclick="plusSlides(-1)">❮</a>
+          <div class="popular-movie">
+          <div class="mySlides fade">
+           <div class="film-inside-popular">
+              <img  src="img/house of dragon.jpg">
+              <h3  style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">House of Dragon</h3>
+              <p>1</p>
+           </div>
+           <div class="film-inside-popular">
+              <img  src="img/ringsofpower.jpg">
+              <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">The Lord of the Rings: The Rings of Power</h3>
+              <p>2</p>
+           </div>
+           <div class="film-inside-popular">
+              <img  src="img/dahmer.jpg">
+              <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">Monster: The Jeffrey Dahmer Story</h3>
+              <p>3</p>
+           </div>
+           <div class="film-inside-popular">
+              <img  src="img/Andor.jpg">
+              <h3>Andor</h3>
+              <p>4</p>
+           </div>
+           <div class="film-inside-popular">
+              <img  src="img/shehulk.png">
+              <h3>The bear</h3>
+              <p>5</p>
+           </div>
+           <div class="film-inside-popular">
+              <img  src="img/thewalkingdead.jpg">
+              <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">The Walking Dead</h3>
+              <p>6</p>
+           </div>
+       </div>
+         <div class="film-inside-popular">
+          <img  src="img/got.png">
+          <h3 >Game of Throne</h3>
+          <p>7</p>
+       </div>
+       <div class="film-inside-popular">
+          <img  src="img/sandman.png">
+          <h3>Sandman</h3>
+          <p>8</p8>
+       </div>
+       <div class="film-inside-popular">
+          <img  src="img/theempress.jpg">
+          <h3>Better Call Saul</h3>
+          <p>9</p>
+       </div>
+       <div class="film-inside-popular">
+          <img  src="img/interviewwith.jpg">
+          <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">Interview With The Vampire</h3>
+          <p>10</p>
+       </div>
+       <div class="film-inside-popular">
+          <img  src="img/americanhorrorstory.jpg">
+          <h3 style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap; width: 145px; display: block;">American Horror Story</h3>
+          <p>11</p>
+       </div>
+       
+       <div class="film-inside-popular">
+          <img  src="img/rickandmorty.jpg">
+          <h3>Rick & Morty</h3>
+          <p>12</p>
+       </div>
+       
+       </div>
+       <a class="next2" onclick="plusSlides(1)">❯</a>
+       </div>
+       <div class="blue-line3"></div>
+       <div class="blue-line4"></div>
+       <script>
+    $(".next").click(function () { 
+      var leftPos = $('.miss-movie').scrollLeft();
+      $(".miss-movie").animate({scrollLeft: leftPos + 1000}, 600);
+    });
+    
+    $(".prev").click(function () { 
+      var leftPos = $('.miss-movie').scrollLeft();
+      $(".miss-movie").animate({scrollLeft: leftPos - 1000}, 600);
+    });
+    
+    $(".next2").click(function () { 
+      var leftPos = $('.popular-movie').scrollLeft();
+      $(".popular-movie").animate({scrollLeft: leftPos + 1000}, 600);
+    });
+    
+    $(".prev2").click(function () { 
+      var leftPos = $('.popular-movie').scrollLeft();
+      $(".popular-movie").animate({scrollLeft: leftPos - 1000}, 600);
+    });
+    
+    
+    </script>
+    
+    <div class="Container3">
+       <div class="text-Expected"><h1>News ranking</h1></div>
+     <div class="Expected">
+       <div class="Expected-films">
+          <div class="film-inside-Expected">
+             <img  src="img/rickandmorty.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>Rick & Morty</p1>
+                </div>
+             </div>
+          </div>
+          <div class="film-inside-Expected">
+             <img  src="img/thehadmalds.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>The Handmaid's Tale</p1>
+                </div>
+             </div>
+          </div>
+          <div class="film-inside-Expected">
+             <img  src="img/cyberpunk.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>Cyberpunk Edgerunners</p1>
+                </div>
+             </div>
+          </div>
+          <div class="film-inside-Expected">
+             <img  src="img/thesipsons.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>The Simpsons</p1>
+                </div>
+             </div>
+          </div>
+          <div class="film-inside-Expected">
+             <img  src="img/fanilyguy.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>Family Guy</p1>
+                </div>
+             </div>
+          </div>
+          <div class="film-inside-Expected">
+             <img  src="img/chicagofire.jpg">
+             <div class="views-info">
+                <div class="views">
+                   <span>11 650</span>
+                </div>
+                <div class="name">
+                   <p1>Chicago fire</p1>
+                </div>
+             </div>
+          </div>
+       </div>
+     </div> 
+     <div class="text-characters"><h1>Comming Soon</h1></div>
+     <div id="test-nazwa">
+       <div class="popular-characters">
+          <div class="film-inside-popular-characters">
+             <img  src="img/thecrown.jpg">
+             <h3>The Crown</h3>
+          </div>
+          <div class="film-inside-popular-characters">
+             <img  src="img/His Dark Materials.jpg">
+             <h3>His Dark Materials</h3>
+          </div>
+          <div class="film-inside-popular-characters">
+             <img  src="img/Elite.jpg">
+             <h3>Elite</h3>
+          </div>
+          <div class="film-inside-popular-characters">
+             <img  src="img/Wheeltime.jpg">
+             <h3>Wheel Time</h3>
+          </div>
+          <div class="film-inside-popular-characters">
+             <img  src="img/thewitelotus.jpg">
+             <h3>The White Lotus</h3>
+          </div>
+          <div class="film-inside-popular-characters">
+             <img  src="img/1899.jpg">
+             <h3>1899</h3>
+          </div>
+       </div>
+    </div>
+    
+    </div>    
+    </div>
+    <div id="bottom-section">
+       <div class="news-box">
+         <div class="news-chapter1">
+            <div class="news-name">
+               <span>News</span>
+            </div>
+            <div class="news-info">
+              <img src="img/news-d23expo.jpg">
+            </div>
+            </div>
+            <div class="news-chapter2">
+              <div class="inside-chapter1">
+               <img src="img/news-miagoth.jpg">
+              </div>
+              <div class="inside-chapter2">
+               <img src="img/news-constantine.jpg">
+              </div>
+              <div class="inside-chapter3">
+               <img src="img/news-jurasic.jpg">
+              </div>
+      
+            </div>
+            <div class="news-chapter3">
+               <div class="foto-inisde-chapter3">
+                  <img src="img/news1.jpg">
+               </div>
+               <div class="some-text-in-chapter3">
+                  <img src="img/news-ringsof.jpg">
+               </div>
+            </div>
+            <div class="news-chapter4">
+               <div class="some-news1"><img src="img/news-wody(1).jpg"></div>
+               <div class="some-news2"><img src="img/news-oscars.jpg"></div>
+               <div class="some-news3"><img src="img/news-fotobuzz.jpg"></div>
+            </div>
+       </div>
+    </div>
+    <div id="last-section">
+    
+    </div>
+
+    <script src="script.js"></script>
+
+</body>

@@ -291,28 +291,59 @@ $(document).ready(function(){
   ;
   $(window).scroll(function(){
     var top = $(window).scrollTop();
-    var find_class_small = $.contains('#nav', '.small');
+    var find_class_small = $.contains('.nav', '.small');
     var find_class_small = $.contains('.logo', '.small');
     var find_class_small = $.contains('.main-navigation', '.small');
   
     if(top > 150 && find_class_small == false) { // tu zmieniamy wysokosc - gdy strona zjedzie 50px w dol
      $('.main-navigation').addClass('small'); // nawigacja otrzyma klase small
      $('.logo').addClass('small'); // nawigacja otrzyma klase small
-     $('#nav').addClass('small'); // nawigacja otrzyma klase small
+     $('.nav').addClass('small'); // nawigacja otrzyma klase small
     }
     else {
      $('.main-navigation').removeClass('small'); // w przeciwnym wypadku usuwamy klase small
      $('.logo').removeClass('small'); // w przeciwnym wypadku usuwamy klase small
-     $('#nav').removeClass('small'); // w przeciwnym wypadku usuwamy klase small
+     $('.nav').removeClass('small'); // w przeciwnym wypadku usuwamy klase small
     }
  });
 ;
-//$(document).ready(function(){
-  //$("#btn2").click(function(){
-   // $(".blackphone-about").hide();
- // });
- // $("#openbtn1").click(function(){
-    //$(".blackphone-about").show();
-  //});
- //});
- 
+const hamburger_button = document.querySelector(".hamburger-button");
+const navbar_mobile = document.querySelector(".mobile-nav");
+const navbar_desktop = document.querySelector(".nav");
+const mobile_menu = document.querySelector(".mobile-menu");
+
+
+function checksize () {
+  let screen_width = window.innerWidth;
+    if (screen_width > 900) {
+      navbar_mobile.style.display = "none";
+      navbar_desktop.style.display = "block";
+      
+    } else {
+      navbar_mobile.style.display = "block";
+      navbar_desktop.style.display = "none";
+      
+    }
+  }
+
+  checksize()
+
+function displayResizing() {
+    checksize()
+}
+
+  window.addEventListener("resize", displayResizing);
+   
+hamburger_button.addEventListener("click", () => {
+  console.log(navbar_mobile.className);
+  if (hamburger_button.className === "hamburger-button clicked") {
+    hamburger_button.classList.remove("clicked");
+    mobile_menu.style.display = "none";
+  } else {
+    hamburger_button.classList.add("clicked");
+    mobile_menu.style.display = "block";
+    mobile_menu.style.visibility = "visible";
+  }
+});
+
+

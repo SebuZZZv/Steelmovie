@@ -9,8 +9,6 @@
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script src="../Film_Page/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
-   <script src="/path/to/jquery.cookie.js"></script>
    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
@@ -19,32 +17,49 @@
  <div class="main-navigation">
    <div class="logo">
      <img  src="img/Logo-steelmovie.png">     
-     
   </div>
-   <nav id="nav">
-    <a href="index.html" style="color: lightgray;">Home</a>
+  <div class="mobile-nav">
+    <div class="mobile-menu">
+      <div class="mobile-nav-links-container">
+        <a href="index.html">Home</a>
+        <a href="Films.html">Films</a>
+        <a href="Series.html">Series</a>
+        
+        
+      </div>
+      
+    </div>
+      <div class="hamburger-button">
+        <div class="hamburger-line1"></div>
+        <div class="hamburger-line2"></div>
+        <div class="hamburger-line3"></div>
+      </div>
+  </div>
+  <nav class="nav">
+    <a style="color: lightgray;" href="index.html" >Home</a>
     <a href="Films.html">Films</a>
-    <a>Series</a>
-    <a>Someting</a>
+    <a href="Series.html">Series</a>
+    
   </nav>
   </div>
-  </div>
+  
+  
   <div class="foto-bc">
     <div class="mySlides fade" >
-   <img src="img/Hofd.png" style="width: 100%;" height="850">
+   <img src="img/Hofd.png" >
    </div>
    <div class="mySlides fade">
-    <img src="img/twdbaner.png" style="width: 100%;" height="850">
+    <img src="img/twdbaner.png" >
     </div>
     <div class="mySlides fade">
-      <img src="img/sandmanbaner.png" style="width: 100%;" height="850">
+      <img src="img/sandmanbaner.png" >
       </div>
   </div>  
   <div class="text-cos">
     <h1>POPULAR FILMS</h1>
     
   </div>
-  
+  <div class="big-box1">
   <div class="box1">
     <div id="openbtn1" class="film1"><img class="shadow" src="img/blackfone.jpg">
       <div class="about">
@@ -159,7 +174,8 @@
       </div>
     </div>  
   </div>
-  </div>    
+  </div>
+</div>    
   <div class="text-cos">
     <h1>COMMING SOON</h1>
   </div>
@@ -221,12 +237,14 @@
   </div>
  <div class="blackphone-about">
     <section class="image-foto">
+      <img src="img/blackphone-bc.jpg"></img>
+      <div id="btn2" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="btn2" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
+      
         <div class="movie-name">
           <h1>Black Phone</h1>
         </div>
@@ -237,12 +255,12 @@
          <a>Action</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -251,13 +269,14 @@
     </section>
   </div>
   <div class="topgun-about">
-    <section class="image-foto2">
+    <section class="image-foto">
+      <img src="img/topgun-wsa.png"></img>
+      <div id="closebtn2" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="closebtn2" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Top Gun: Maverik</h1>
         </div>
@@ -268,12 +287,12 @@
           <a>Action</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -283,13 +302,14 @@
     </section>
   </div>
   <div class="predator-about">
-    <section class="image-foto3">
+    <section class="image-foto">
+      <img src="img/prey.png"></img>
+      <div id="closebtn3" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+     </div>
       <div class="loader-box">
-        <div id="closebtn3" class="exit">
-           <div class="line1"></div>
-           <div class="line2"></div>
-           <div class="line3"></div>
-        </div>
         <div class="movie-name">
            <h1>Predator: Prey</h1>
         </div>
@@ -300,12 +320,12 @@
            <a>Action, Sci-Fi</a>  
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -314,13 +334,14 @@
     </section>
   </div>
   <div class="blackwidow-about">
-    <section class="image-foto4">
+    <section class="image-foto">
+      <img src="img/blackwidow-bc.jpg"></img>
+      <div id="closebtn4" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="closebtn4" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Black Widow </h1>
         </div>
@@ -331,12 +352,12 @@
           <a>Action</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -345,13 +366,14 @@
     </section>
   </div>
   <div class="got-about">
-    <section class="popularseries-image-foto1">
+    <section class="image-foto">
+      <img src="img/got-bc.jpg"></img>
+      <div id="sclosebtn1" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="sclosebtn1" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Game of Throne </h1>
         </div>
@@ -362,12 +384,12 @@
           <a>Drama, Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -376,13 +398,14 @@
     </section>
   </div>
   <div class="shehulk-about">
-    <section class="popularseries-image-foto2">
+    <section class="image-foto">
+      <img src="img/she-hulk-bc.jpg"></img>
+      <div id="sclosebtn2" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="sclosebtn2" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>She-Hulk: Attorney at Law </h1>
         </div>
@@ -393,12 +416,12 @@
           <a>Action, Sci-Fi</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -407,13 +430,14 @@
     </section>
   </div>
   <div class="see-about">
-    <section class="popularseries-image-foto3">
+    <section class="image-foto">
+      <img src="img/see-bc.jpg"></img>
+      <div id="sclosebtn3" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="sclosebtn3" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>See </h1>
         </div>
@@ -424,12 +448,12 @@
           <a>Drama, Sci-Fi</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -438,13 +462,14 @@
     </section>
   </div>
   <div class="twd-about">
-    <section class="popularseries-image-foto4">
+    <section class="image-foto">
+      <img src="img/twd-bc.jpg"></img>
+      <div id="sclosebtn4" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="sclosebtn4" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>The Walking Dead </h1>
         </div>
@@ -455,12 +480,12 @@
           <a>Drama, Horror</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -469,13 +494,14 @@
     </section>
   </div>
   <div class="sandman-about">
-    <section class="popularseries-image-foto5">
+    <section class="image-foto">
+      <img src="img/sandman-bc.jpg"></img>
+      <div id="sclosebtn5" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="sclosebtn5" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Sandman </h1>
         </div>
@@ -486,12 +512,12 @@
           <a>Fantasy, Horror</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -500,13 +526,14 @@
     </section>
   </div>
   <div class="commingsoon-about">
-    <section class="commingsoon-image-foto">
+    <section class="image-foto">
+      <img src="img/ring-bc.jpg"></img>
+      <div id="coclosebtn1" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="coclosebtn1" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>The Lord of The Rings: Rings of Power </h1>
         </div>
@@ -517,12 +544,12 @@
           <a>Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -531,13 +558,14 @@
     </section>
   </div>
   <div class="commingsoon-about2">
-    <section class="commingsoon-image-foto2">
+    <section class="image-foto">
+      <img src="img/gooddoctor-bc.jpg"></img>
+      <div id="coclosebtn2" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="coclosebtn2" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>The Good Doctor</h1>
         </div>
@@ -548,12 +576,12 @@
           <a>Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -562,13 +590,14 @@
     </section>
   </div>
   <div class="commingsoon-about3">
-    <section class="commingsoon-image-foto3">
+    <section class="image-foto">
+      <img src="img/broadpeak-bc.jpg"></img>
+      <div id="coclosebtn3" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="coclosebtn3" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Broad Peak</h1>
         </div>
@@ -579,12 +608,12 @@
           <a>Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -593,13 +622,14 @@
     </section>
   </div>
   <div class="commingsoon-about4">
-    <section class="commingsoon-image-foto4">
+    <section class="image-foto">
+      <img src="img/dontworry-bc.jpg"></img>
+      <div id="coclosebtn4" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="coclosebtn4" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Don't Worry Darling</h1>
         </div>
@@ -610,12 +640,12 @@
           <a>Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
@@ -624,13 +654,14 @@
     </section>
   </div>
   <div class="commingsoon-about5">
-    <section class="commingsoon-image-foto5">
+    <section class="image-foto">
+      <img src="img/chicagofire-bc.jpg"></img>
+      <div id="coclosebtn5" class="exit">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="loader-box">
-        <div id="coclosebtn5" class="exit">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
         <div class="movie-name">
           <h1>Chicago Fire: Season 12</h1>
         </div>
@@ -641,19 +672,19 @@
           <a>Fantasy, Adventure</a>
         </div>
         <div class="Description">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="button">
           <a href="Jcraft2page.html"><button id="btn">More</button></a>
          </div>
       </div> 
     </section>
-  </div>                                                                                                                                                                                                               
+  </div>                                                                                                                                                                                                             
   <script>
     let slideIndex = 0;
 showSlides();
@@ -675,7 +706,6 @@ function showSlides() {
     
   
   </script>
-<script src="jquery.js"></script>
 <div class="text-cos">
   <h1>RANKINGS</h1>
 </div>
@@ -754,4 +784,5 @@ function showSlides() {
 <div id="View-full-ranking-button">
  <a>View full ranking</a>
 </div>
+<script src="script.js"></script>
 </body>

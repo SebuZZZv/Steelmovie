@@ -8,7 +8,9 @@ body
  margin: 0;
  
 }
-
+#movie-bottom-thriller .miss-movie .rank-box .box1::-webkit-scrollbar {
+    display: none; 
+}
 .main-navigation
 {
     width: 100%;
@@ -19,6 +21,103 @@ body
     
     z-index: 999  ;
     background-color: black;
+}
+.hamburger-button 
+{
+  margin-top: 10px;
+  margin-left: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+  z-index: 99!important;
+  position: absolute;
+  
+}
+.hamburger-line1 
+{
+  width: 5px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: white;
+  transition: .3s;
+  
+}
+.hamburger-line2
+{
+  width: 5px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 5px;
+  
+}
+.hamburger-line3
+{
+  width: 5px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 5px;
+  transition: .3s;
+  
+}
+
+.hamburger-button .clicked 
+{
+  margin-top: 35px;
+  transition: 0.3s;
+}
+.hamburger-button.clicked .hamburger-line1
+{
+  width: 5px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: black;
+  transform: rotate(-45deg) translateY(10px) translateX(-5px);
+  margin-top: 5px;
+  transition: .3s;
+}
+.hamburger-button.clicked .hamburger-line2 
+{
+  visibility: hidden;
+}
+.hamburger-button.clicked .hamburger-line3
+{
+  transform: rotate(45deg) translateY(-10px) translateX(-5px);
+  width: 5px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: black;
+  margin-top: 5px;
+  transition: .3s;
+}
+/* MOBILE NAVIGATION STYLE */
+.mobile-menu 
+{
+  background: white;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: 1!important;
+  width: 60vw;
+  height: 100vh;
+  animation: menu-from-left .3s ease-in-out;
+  visibility:hidden;
+}
+
+.mobile-nav-links-container 
+{
+  margin-top: 150px;
+}
+
+.mobile-nav-links-container a
+{
+  margin: 40px 0px;
+  margin-left: 25px;
+  color: black;
+  display: block;
+  font-size: 6vw;
+  text-decoration: none;
 }
 .testowo
 {
@@ -67,7 +166,7 @@ body
 {
     margin-top: 20px;
 }
-#nav
+.nav
 {
     width: 40%;
     height: 50px;
@@ -79,7 +178,7 @@ body
     left:120px;
     
 }
-#nav a
+.nav a
 {
     color: white;
     font-size: 26px;
@@ -93,7 +192,7 @@ body
     
     
 }
-#nav.small
+.nav.small
 {
     
     margin-top: 10px;
@@ -102,7 +201,7 @@ body
     
     
 }
-#nav.small a {
+.nav.small a {
     padding: 0px 0px 20px 0px;
     font-size: 20px;
     font-weight: 100;
@@ -143,55 +242,61 @@ body
     margin: 0 auto;
     text-align: center;
     box-shadow: 0px 5px 20px 0px black;
+    display: flex;
+justify-content: center;
+align-items: center;
+-ms-overflow-style: none; 
+scrollbar-width:none;
+overflow-y: scroll;  
+
 }
 
 .film1
 {
  
- width: 12%;
- height: 100%;
- display: inline-block;
+ padding: 10px;
+ margin-top: -30px;
+ 
  cursor: pointer;
- margin-top: 25px;
+ 
  
  
 }
 .film2
 {
     
-    width: 12%;
- height: 100%;
- display: inline-block;
- margin-left: 15px;
+    padding: 10px;
+    margin-top: -30px;
+
+ 
  cursor: pointer;
  
 }
 .film3
 {
     
-    width: 12%;
- height: 100%; 
- display: inline-block; 
- margin-left: 15px;
+    padding: 10px;
+    margin-top: -30px;
+  
+ 
  cursor: pointer;
  
 }
 .film4
 {
     
-    width: 12%;
- height: 100%;
- display: inline-block;
- margin-left: 15px;
+    padding: 10px;
+    margin-top: -30px;
+ 
+ 
  cursor: pointer;
 }
 .film5
 {
     
-    width: 12%;
- height: 100%;
- display: inline-block;
- margin-left: 15px;
+    padding: 10px;
+    margin-top: -30px;
+ 
  cursor: pointer;
 }
 .text-cos 
@@ -203,12 +308,18 @@ body
 }
 .box2
 {
-   background-color: black;
+    background-color: lightgrey;
     height: 420px;
-    z-index: 300;
+    
     margin: 0 auto;
     text-align: center;
     box-shadow: 0px 5px 20px 0px black;
+    display: flex;
+justify-content: center;
+align-items: center;
+-ms-overflow-style: none; 
+scrollbar-width:none;
+overflow-y: scroll;  
 }
 .box3
 {
@@ -217,6 +328,12 @@ body
     margin: 0 auto;
     text-align: center;
     box-shadow: 0px 5px 20px 0px black;
+    display: flex;
+justify-content: center;
+align-items: center;
+-ms-overflow-style: none; 
+scrollbar-width:none;
+overflow-y: scroll;  
 }
 .shadow
 {
@@ -285,7 +402,7 @@ body
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    
     z-index: 2000;
     background-color: rgba(0, 0, 0, 0.795);
     display: none;
@@ -298,18 +415,23 @@ body
 .image-foto
 {
     width: 100%;
-    height: 955px;
-    background-image: url(img/blackphone-bc.jpg);
+    position: relative;
     
     
-    color: white;
+    
+    
+    
     
    
     
     
     
 }
-
+.image-foto img
+ {
+    width: 100%;
+    height: 955px;
+ }
  
  
   
@@ -317,42 +439,43 @@ body
   {
     
     
-    
+    color: white;
+    margin-left: 50px;
     font-size: 26px;
-    margin-top: 150px;
-    margin-left: 100px;
-    
     
   }
  .loader-box 
  {
+    width: 65%;
+    position: absolute;
+    top: 30%;
     
-    width: 750px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    
+    
  }
+ 
  .cos 
  {
-    margin-left: 100px;
+    margin-left: 70px;
     
  }
  .cos a
  {
     color: rgba(6, 212, 226, 0.658);
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: -20px;
-    
-    margin-right: 20px;
+    font-size: 18px;
     
  }
  .Description
  {
+    margin-left: 50px;
+    width: 100%;
     
+ }
+ .Description p
+ {
+    color: white;
     
-    margin-left: 100px;
-    font-size: 14px;
+    font-size: 20px;
  }
  .exit
  {
@@ -361,7 +484,8 @@ body
     height: 50px;
     margin-top: 30px;
     margin-left: 30px;
-    float: left;
+    position: absolute;
+    top: 0;
     cursor: pointer;
  }
 .line1 
@@ -406,7 +530,7 @@ body
 {
   position: relative;
   left: 100px;
-  top: 50px;
+  top: 30px
   
 }  
 #btn
@@ -688,12 +812,12 @@ body
 }
 .rank-box
 {
-    width: 70%;
+    width: 94%;
     height: 350px;
     background-color: black;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
     -ms-overflow-style: none; 
@@ -741,10 +865,12 @@ body
     margin: 0 auto;
     padding: 10px;
     border: 1px solid black;
+    cursor: pointer;
     
     transition-property: background;
 transition-duration: 1.5s;
 }
+
 
 #View-full-ranking-button a
 { 
@@ -761,6 +887,7 @@ transition-duration: 1.5s;
     
 
 }
+
 @keyframes view-button {
     0%
     {
@@ -854,7 +981,7 @@ width: 100%;
 }
 #movie-thriller video
 {
-    
+    max-width: 75%;
     height: 600px;
 }
 #movie-thriller .movie-foto
@@ -877,8 +1004,8 @@ width: 100%;
     display: flex;
  justify-content:space-between;
  align-items:center;
- position: relative;
- z-index: 1000;
+ 
+ 
  
 }
 
@@ -902,6 +1029,8 @@ width: 100%;
 }
 .movie-bottom-film img
 {
+    width: 144px;
+    height: 212px;
     transition-duration: 0.5s;
     
     border-left:3px solid yellow ;
@@ -919,9 +1048,7 @@ width: 100%;
 }
 
 
-#movie-bottom-thriller .miss-movie .rank-box::-webkit-scrollbar {
-    display: none; 
-}
+
 .Container2
 {
     width: 100%;
@@ -974,9 +1101,16 @@ width: 100%;
     height: 90%;
     text-align: center;
     padding: 10px;
+    position: relative;
     
    
 }
+.miss-movie .film-inside-miss img 
+{
+    width: 144px;
+    height: 212px;
+}
+
 .film-inside-miss img
 {
     transition-duration: 0.5s;
@@ -1029,12 +1163,24 @@ text-align: center;
     position: relative;
     
 }
+.popular-movie .film-inside-popular img 
+{
+    width: 144px;
+    height: 212px;
+}
 .popular-movie .film-inside-popular h3{
     
     text-align: center;
     margin-top: 10px;
 }
-
+.popular-movie .film-inside-popular p 
+{
+    position: absolute;
+    bottom: -15px;
+    color: white;
+    font-size: 66px;
+    text-shadow: 3px 3px 5px black;
+}
 .prev, .next {
     cursor: pointer;
     
@@ -1078,6 +1224,10 @@ text-align: center;
     justify-content:space-between;
     align-items:center;
 
+  }
+  .mySlides img {
+    width: 100%;
+    height: 855px;
   }
   .mySlides2
   {
@@ -1171,11 +1321,11 @@ text-align: center;
     position: relative;
     
   }
-  
-  
   .Expected-films .film-inside-Expected img 
   {
     transition-duration: 0.5s;
+    width: 144px;
+    height: 212px;
   }
   .Expected-films .film-inside-Expected img:hover 
   {
@@ -1185,11 +1335,7 @@ text-align: center;
     
     z-index: 0;
   }
-  .Expected-films .film-inside-Expected h3
-  {
-    text-align: center;
-    color: white;
-  }
+  
   .views-info
   {
     width: 100%;
@@ -1207,7 +1353,7 @@ text-align: center;
   }
   .views-info .name
   {
-    color: white;
+    color: black;
     text-align: center;
   }
   #test-nazwa
@@ -1242,6 +1388,8 @@ text-align: center;
 .popular-characters img
 {
     transition-duration: 0.5s;
+    width: 144px;
+    height: 212px;
     
 }
 .popular-characters img:hover
@@ -1324,7 +1472,7 @@ text-align: center;
     width: 250px;
     height: 616px;
     
-    background-image: url(img/news-d23expo.jpg);
+    
 
 }
 .news-chapter2
@@ -1340,43 +1488,58 @@ text-align: center;
     width: 300px;
     height: 253.3px;
     
-    background-image: url(img/news-miagoth.jpg);
+    
 }
 .inside-chapter2
 {
     width: 300px;
     height: 253.3px;
     
-    background-image: url(img/news-constantine.jpg);
+    
 }
 .inside-chapter3
 {
     width: 300px;
     height: 253.3px;
     
-    background-image: url(img/news-jurasic.jpg);
+   
 }
 .news-chapter3
 {
-    width: 450px;
+    width: 435px;
     height: 760px;
     
   
     float: left;
 }
-.foto-inisde-chapter3
+
+.foto-inisde-chapter3 
 {
-    width: 450px;
+    width: 435px;
     height: 506.3px;
     
-    background-image: url(img/news1.jpg);
+   
 }
-.some-text-in-chapter3
+.some-text-in-chapter3 
 {
-    width: 450px;
+    width: 435px;
     height: 253px;
     
-    background-image: url(img/news-ringsof.jpg);
+    
+}
+.foto-inisde-chapter3 img
+{
+    width: 435px;
+    height: 506.3px;
+    
+   
+}
+.some-text-in-chapter3 img 
+{
+    width: 435px;
+    height: 253px;
+    
+    
 }
 .news-chapter4
 {
@@ -1388,24 +1551,45 @@ text-align: center;
 }
 .some-news1
 {
-    width: 200px;
+    width: 220px;
     height: 253.3px;
     
-    background-image: url(img/news-wody\(1\).jpg);
+    
 }
 .some-news2
 {
     width: 200px;
     height: 253.3px;
     
-    background-image: url(img/news-oscars.jpg);
+    
 }
 .some-news3
 {
     width: 200px;
     height: 253.3px;
     
-    background-image: url(img/news-fotobuzz.jpg);
+    
+}
+.some-news1 img
+{
+    width: 215px;
+    height: 253.3px;
+    
+    
+}
+.some-news2 img
+{
+    width: 215px;
+    height: 253.3px;
+    
+    
+}
+.some-news3 img
+{
+    width: 215px;
+    height: 253.3px;
+    
+    
 }
 #last-section
 {
@@ -1413,3 +1597,48 @@ text-align: center;
  height: 150px;
  background-color: black;
 }
+
+
+
+
+.text-rank{
+    color: black;
+    text-align: center;
+   margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 1000px)  {
+    .nav.small {
+      display: none;
+   }
+   .logo.small
+   {
+    display: none;
+   }
+   .logo
+   {
+    margin-left: 150px;
+   }
+   .box1, .box2, .box3, .rank-box {
+    justify-content: space-between;
+   }
+   .news-box{
+    border: none;
+   }
+   .loader-box
+   {
+    margin-top: -200px;
+   }
+}
+@media only screen and (max-width: 600px){
+    .news-chapter1{
+        margin-left: 100px;
+       }
+       .news-chapter2{
+        margin-left: 70px;
+       }
+       .news-chapter4{
+        margin-left: 100px;
+       }
+}
+
