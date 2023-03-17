@@ -859,7 +859,7 @@ overflow-y: scroll;
 }
 #View-full-ranking-button
 {
-    width: 400px;
+    width: 350px;
     height: 30px;
     text-align: center;
     margin: 0 auto;
@@ -1432,7 +1432,7 @@ text-align: center;
 
 .news-box
 {
-    width: 1200px;
+    width: 1165px;
     height: 80%;
     
     border: 3px solid yellow;
@@ -1506,7 +1506,7 @@ text-align: center;
 }
 .news-chapter3
 {
-    width: 435px;
+    width: 400px;
     height: 760px;
     
   
@@ -1515,35 +1515,35 @@ text-align: center;
 
 .foto-inisde-chapter3 
 {
-    width: 435px;
+    width: 400px;
     height: 506.3px;
     
    
 }
 .some-text-in-chapter3 
 {
-    width: 435px;
+    width: 400px;
     height: 253px;
     
     
 }
 .foto-inisde-chapter3 img
 {
-    width: 435px;
+    width: 400px;
     height: 506.3px;
     
    
 }
 .some-text-in-chapter3 img 
 {
-    width: 435px;
+    width: 400px;
     height: 253px;
     
     
 }
 .news-chapter4
 {
-    width: 200px;
+    width: 215px;
     height: 760px;
     
   
@@ -1558,7 +1558,7 @@ text-align: center;
 }
 .some-news2
 {
-    width: 200px;
+    width: 215px;
     height: 253.3px;
     
     
@@ -1640,5 +1640,6 @@ text-align: center;
        .news-chapter4{
         margin-left: 100px;
        }
+       
 }
 
